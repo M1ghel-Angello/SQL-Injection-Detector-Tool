@@ -13,7 +13,7 @@ SQL INJECTION DETECTOR
 3- Test with Vulnerable App: To see it in action, first start the vulnerable app in one terminal:
   python f:\"YOUR FOLDER´S NAME"\sql_injection_detector\vulnerable_app.py
 Then, in another terminal, run the scanner against it:
-  python f:\PROJETOS\sql_injection_detector\scanner.py http://127.0.0.1:5000
+  python f:\"YOUR FOLDER´S NAME"\sql_injection_detector\scanner.py http://127.0.0.1:5000
 
 -------------------------------------------------------------------------------------------------------
   ### Features
@@ -34,7 +34,7 @@ Then, in another terminal, run the scanner against it:
 You can run the following command to view the contents of test.db :
 
 ```
-python f:\PROJETOS\sql_injection_detector\inspect_db.py
+python f:\"YOUR FOLDER´S NAME"\sql_injection_detector\inspect_db.py
 ```
 I've already run it, and here is the current content of your database:
 
