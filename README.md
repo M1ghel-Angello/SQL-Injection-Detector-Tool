@@ -47,7 +47,8 @@ Data:
 O código-fonte do script está em inspect_db.py. Ele se conecta ao banco de dados SQLite e imprime todas as tabelas e suas linhas.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
-ENGLISH INSTRUCTIONS...
+ENGLISH INSTRUCTIONS
+
 SQL INJECTION DETECTOR
 
 - scanner.py : The main detection tool. It crawls the target URL, finds forms and query parameters, and fuzzes them with common SQL injection payloads.
